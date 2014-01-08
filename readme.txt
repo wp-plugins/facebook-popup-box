@@ -6,7 +6,7 @@ Requires at least: 2.7
 Tested up to: 3.8
 Stable tag: 1.0
 
-Shows a popup like box when a user visits your WordPress site!
+Shows a facebook like box in a lightbox when a user visits your WordPress site!
 
 == Description ==
 
