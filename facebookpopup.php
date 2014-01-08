@@ -51,9 +51,8 @@ function facebookpopup_set_up_options() {
 //adding FB scripts
 
 function frontend_scripts() {
-    //$frontend_script_path = $this->plugin_url();
-    wp_enqueue_script( 'facebookpopup_scripts', plugins_url('facebookpopup/js/facebookpopup.js'), array('jquery'));
-    wp_enqueue_style( 'facebookpopup_scripts', plugins_url('facebookpopup/css/style.css'));
+    wp_enqueue_script( 'facebookpopup_script', plugins_url( 'js/facebookpopup.js' , __FILE__ ), array('jquery'));
+    wp_enqueue_style( 'facebookpopup_style', plugins_url( 'css/style.css' , __FILE__ ));
 }
 
 add_action( 'wp_enqueue_scripts', 'frontend_scripts');
