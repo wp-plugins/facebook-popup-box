@@ -33,7 +33,7 @@ float:right;
 cursor:pointer;
 background:url(../img/fanclose.png) no-repeat;
 height:56px;
-padding:20px;
+padding-left:20px;
 position:relative;
 padding-right:40px;
 margin-top:-20px;
