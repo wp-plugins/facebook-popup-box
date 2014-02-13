@@ -4,7 +4,7 @@ Donate link:https://www.xtendify.com/en/product/83-Facebook_Popup_Like_Box_WordP
 Tags: facebook, popup, likes, seo
 Requires at least: 2.7
 Tested up to: 3.8
-Stable tag: 1.2.1
+Stable tag: 1.2.2
 
 Show a popup like box when a user visits your WordPress site!
 
@@ -33,3 +33,6 @@ Bug Fixes
 
 v1.2.1
 CSS Fix
+
+v1.2.2
+Bug Fixes
