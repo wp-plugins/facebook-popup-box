@@ -31,7 +31,9 @@ License: GPLv2 or later
 //adding actual codes to the bottom
 function facebookpopup_footer() {
    
-    $footer = file_get_contents(dirname(__FILE__).'/facebookpopup_footer.php');
+    //$footer = file_get_contents(dirname(__FILE__).'/facebookpopup_footer.php');
+    include(dirname(__FILE__).'/facebookpopup_footer.php');
+    $footer = $fb_footer;
     $footer = str_replace('__URL__', get_option('facebookpopup_fburl'), $footer);
     $footer = str_replace('__DELAY__', get_option('facebookpopup_delay')*1000, $footer);
     echo $footer;
