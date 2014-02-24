@@ -54,3 +54,20 @@ margin: 0 auto 5px auto;
 float:center;
 }
 
+@media screen and (max-width: 767px) {
+    #facebookpopup-fanbox {
+        width:98%;
+        left:1%;
+        margin:-220px 0 0 0px;
+    }
+    
+    .fb_iframe_widget, .fb_iframe_widget span, .fb_iframe_widget span iframe[style] {
+        width: 100% !important;
+    }
+    
+    .fb-like-box > span > iframe[style] {width: 100% !important;}
+
+    #fb-root {
+        display: none;
+    }
+}
