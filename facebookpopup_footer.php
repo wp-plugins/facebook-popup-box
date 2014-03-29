@@ -48,7 +48,7 @@ src="//pagead2.googlesyndication.com/pagead/show_ads.js">
 
  '; } 
   $fb_footer .= ' 
-<a href="https://www.xtendify.com/en/product/83-facebook-popup-like-box-for-wordpress-plugin" title="Download from Xtendify - Best Plugins and Themes Marketplace">Get Widget</a></span></center>
+<a href="https://www.xtendify.com/en/product/83-facebook-popup-like-box-for-wordpress-plugin" rel="nofollow" title="Download from Xtendify - Best Plugins and Themes Marketplace">Get Widget</a></span></center>
 </div>
 </div>
  '; ?>
