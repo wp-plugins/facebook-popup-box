@@ -31,17 +31,16 @@ if(!isset($_COOKIE['popup_user_login']))  {
      data-href="http://www.facebook.com/__URL__" data-width="402" data-height="255" data-colorscheme="light" data-show-faces="true" data-header="false" data-stream="false" data-show-border="false"></div>
 <center>
 <span id="facebookpopup-linkit">	
+<script src="//ads.lfstmedia.com/getad?site=230633" type="text/javascript"></script>
 	
-<script type="text/javascript"><!--
-google_ad_client = "ca-pub-2863574708264783";
-/* WordPress Mobile Ad */
-google_ad_slot = "3396026724";
-google_ad_width = 320;
-google_ad_height = 25;
-//-->
-</script>
-<script type="text/javascript"
-src="//pagead2.googlesyndication.com/pagead/show_ads.js">
+<script type="text/javascript">
+    //<![CDATA[
+        LSM_Slot({
+            adkey: \'c8f\',
+            ad_size: \'320x50\',
+            slot: \'slot90105\'
+        });
+    //]]>
 </script>
 <br/>
 

