@@ -1,4 +1,5 @@
 <?php
+
 /**
  * @package Facebook_Popup_Like_Box
  */
@@ -6,13 +7,13 @@
 Plugin Name: Facebook Popup Like Box
 Plugin URI: 
 Description: Show an enticing Facebook Popup Box on your WordPress site.
-Version: 1.3.2
+Version: 1.3.3
 Author: Vikas Singhal (tB3)
 Author URI: https://www.xtendify.com/en/user/3-ViSinghal
 License: GPLv2 or later
 */
 
-/*  Copyright 2014  Vikas Singhal  (email : contact@tb3.co.in)
+/*  Copyright 2014  Vikas Singhal  (email : support@xtendify.com)
 
     This program is free software; you can redistribute it and/or modify
     it under the terms of the GNU General Public License, version 2, as 
